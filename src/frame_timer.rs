@@ -7,6 +7,7 @@ pub struct FrameTimer {
     sleep_duration: Duration,
     frame_start: SystemTime,
     frame_end: SystemTime,
+    delta_time: f32,
 }
 
 impl FrameTimer {
@@ -24,11 +25,16 @@ impl FrameTimer {
             sleep_duration: sleep_duration,
             frame_start: frame_start,
             frame_end: frame_end,
+            delta_time: 0f32
         }
     }
 
     pub fn frame_start(&mut self) {
         self.frame_start = SystemTime::now();
+    }
+
+    pub fn get_delta_timer(&self) {
+        self.delta_time
     }
 
     pub fn frame_end(&mut self) {
