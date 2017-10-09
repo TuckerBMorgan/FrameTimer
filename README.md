@@ -25,7 +25,7 @@ frame_timer.frame_end();
 and that will limit your game to 60 frames a second
 
 
-Future features:
+Future features
     1. Add in a delta frame calculation and varible
     2. Make the frame timer smarter so that it may 
     3. Open to suggestions
