@@ -6,6 +6,7 @@ keywords = ["games"]
 homepage = "https://github.com/TuckerBMorgan/FrameTimer"
 repository = "https://github.com/TuckerBMorgan/FrameTimer"
 authors = ["TuckerBMorgan <tucker.bull.morgan@gmail.com>"]
+licence = "MIT"
 
 [lib]
 name = "frame_timer"
