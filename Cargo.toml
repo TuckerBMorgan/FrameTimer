@@ -1,6 +1,14 @@
 [package]
-name = "FrameTimer"
+name = "frame_timer"
 version = "0.1.0"
+description = "A simple frame limiter for games"
+keywords = ["games"]
+homepage = "https://github.com/TuckerBMorgan/FrameTimer"
+repository = "https://github.com/TuckerBMorgan/FrameTimer"
 authors = ["TuckerBMorgan <tucker.bull.morgan@gmail.com>"]
+
+[lib]
+name = "frame_timer"
+path = "src/lib.rs"
 
 [dependencies]

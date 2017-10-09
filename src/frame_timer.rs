@@ -9,12 +9,11 @@ pub struct FrameTimer {
     frame_end: SystemTime,
 }
 
-
 impl FrameTimer {
     pub fn new() -> Self {
 
         let sleep_duration = Duration::from_millis(0);
-        let sixty_frames_per_second_length = Duration::from_millis(32);
+        let sixty_frames_per_second_length = Duration::from_millis(16);
         let frame_duration = Duration::from_millis(0);
         let frame_start = SystemTime::now();
         let frame_end = SystemTime::now();
