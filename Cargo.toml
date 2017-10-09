@@ -1,0 +1,6 @@
+[package]
+name = "FrameTimer"
+version = "0.1.0"
+authors = ["TuckerBMorgan <tucker.bull.morgan@gmail.com>"]
+
+[dependencies]
