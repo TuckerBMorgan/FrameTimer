@@ -1,6 +1,6 @@
 [package]
 name = "frame_timer"
-version = "0.1.0"
+version = "0.1.1"
 description = "A simple frame limiter for games"
 keywords = ["games"]
 homepage = "https://github.com/TuckerBMorgan/FrameTimer"
