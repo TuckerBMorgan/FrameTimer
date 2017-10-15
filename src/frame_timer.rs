@@ -64,8 +64,8 @@ impl FrameTimer {
         if self.frame_duration.as_secs() > 0 {
             return;
         }
-
-        if self.sleep_duration.subsec_nanos() < self.n_frame_per_second_length.subsec_nanos() {
+        
+        if self.frame_duration.subsec_nanos() < self.n_frame_per_second_length.subsec_nanos() {
             self.sleep_duration = self.n_frame_per_second_length - self.frame_duration;
             sleep(self.sleep_duration);
         }
